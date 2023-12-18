@@ -200,10 +200,10 @@ footer p{
         width: 35px;  
     }
     nav a {
-        font-size: 0.6rem;
-        padding: 2.4px;
-        margin:5px;
-        border: 0.8px solid #008b8b;
+        font-size: 0.4rem;
+        padding: 2px;
+        margin:3px;
+        border: 0.7px solid #008b8b;
         box-shadow: -2px 2px 5px #016464;
     }
 
