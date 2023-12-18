@@ -14,7 +14,7 @@ h1{
     text-align: center;
     color: rgb(158, 70, 110);
     text-shadow: -2.5px 2px 5px rgb(201, 94, 126);
-    padding: 40px;
+    padding: 10px;
 }
 .cuerpo{
     margin: 0px;
@@ -40,7 +40,7 @@ nav ul{
     flex-wrap: wrap;
 }
 
-nav a {
+.header a {
     color: #019b9b;
     text-decoration: none;
     font-family: 'Roboto Flex', sans-serif;
@@ -51,11 +51,11 @@ nav a {
     box-shadow: -3px 3px 8px #016464;
 }
 
-nav a:visited{
+.header a:visited{
     color: #005a5a;
     border: 1px solid #005a5a;
 }
-nav a:hover{
+.header a:hover{
     font-size: 1rem;
     padding: 4.4px;
     border: 1.2px solid #008b8b;
@@ -179,10 +179,18 @@ footer p{
     font-size: 1.7rem;
 }
 
+/*portafolio*/
+
 
 /* mediaQ */
 /* celulares */
 @media only screen and (max-width:480px){
+    /*general*/
+    h1{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
     /* header */
     header{
         flex-direction: column;
@@ -264,10 +272,6 @@ footer p{
     .valeria p{
         font-size: 1rem;
         text-align: justify;
-    }
-    .valeria h1{
-        font-size: 2rem;
-        padding: 10px;
     }
     
         
