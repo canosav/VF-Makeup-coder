@@ -1,0 +1,40 @@
+.valeria{
+    p{
+        font-size: 1.7rem;
+    }
+    .grid-container-valeria{
+        display: grid;
+        grid-template-areas: 
+        "text-izq img-der"
+        "img-izq text-der"
+        ;
+        grid-template-columns: 35% 35%;
+        grid-template-rows: 500px 500px;
+        /*hijos*/
+        justify-items: center;
+        align-items: center;
+        /*grid*/
+        justify-content: center ;
+        row-gap: 15px;
+        column-gap: 15px;
+        padding: 30px;
+
+        .grid-img-der{
+            grid-area:img-der;
+        }
+        .grid-img-izq{
+            grid-area:img-izq;
+        }
+        .grid-text-der{
+            grid-area: text-der;
+            text-align: right;
+        }
+        .grid-text-izq{
+            grid-area: text-izq;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.servicios{
+    .grid-container-servicios{
+        display: grid;
+        grid-template-areas: 
+        " img-1 serv"
+        ;
+        grid-template-columns: 30% 30%;
+        grid-template-rows:400px;
+        /*hijos*/
+        justify-items: center;
+        align-items: center;
+        /*grid*/
+        justify-content: center ;
+        row-gap: 15px;
+        column-gap: 15px;
+        padding: 25px;
+
+        .grid-servicios{
+            grid-area: serv;
+            text-align: center;
+            li{
+                margin: 20px;
+                font-size: 1.2rem;
+            }
+        }
+
+        .grid-img-1{
+            grid-area: img-1;
+        }
+
+        img{
+            width: 90%;
+        }
+    }
+    .metodologia {
+        text-align: center;
+        padding: 5px;
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+    .grid-container-pasos{
+        display: grid;
+        grid-template-areas: 
+        "pasos pasos"
+        ;
+        grid-template-columns: 30% 30%;
+        grid-template-rows:200px;
+        /*hijos*/
+        justify-items: center;
+        align-items: center;
+        /*grid*/
+        justify-content: center ;
+        row-gap: 15px;
+        column-gap: 15px;
+        .grid-pasos{
+            grid-area:pasos;
+            li{
+                margin: 5px;
+                font-size: 1.2rem;
+            }
+        }
+        
+    }
+
+}

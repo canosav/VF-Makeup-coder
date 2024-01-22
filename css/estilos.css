@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(158, 70, 110);
+  text-shadow: -2.5px 2px 5px rgb(201, 94, 126);
+  padding: 10px;
+}
+
+.cuerpo {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(242, 230, 234);
+}
+
+/*header*/
+header {
+  background-color: #dadada;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 55px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header nav ul li a {
+  color: #019b9b;
+  text-decoration: none;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 0.9rem;
+  padding: 4px;
+  border: 1px solid #019b9b;
+  margin: 20px;
+  box-shadow: -3px 3px 8px #035d5d;
+}
+header nav ul li a:visited {
+  color: #005a5a;
+  border: 1px solid #005a5a;
+}
+header nav ul li a:hover {
+  font-size: 1rem;
+  padding: 4.4px;
+  border: 1.2px solid #005a5a;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #dadada;
+  padding: 10px;
+}
+footer img {
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0.4px;
+}
+footer p {
+  font-size: 0.9rem;
+  margin-top: 0.4px;
+  margin-bottom: 0.2px;
+}
+
+.home {
+  text-align: center;
+}
+.home h1 {
+  font-size: 7rem;
+  color: black;
+  display: inline-block;
+  padding: 0.1px;
+  border-top: 1.3px solid black;
+  border-bottom: 1.3px solid black;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.home h3 {
+  font-size: 1.9rem;
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 60px;
+}
+.home p {
+  font-size: 1.9rem;
+  padding: 70px 90px;
+}
+.home .grid-conteiner {
+  display: grid;
+  grid-template-areas: "img-1 img-2" "img-1 img-2";
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 200px 200px;
+  /*hijos*/
+  justify-items: center;
+  align-items: center;
+  /*grid*/
+  justify-content: center;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 20px;
+}
+.home .grid-conteiner img {
+  width: 100%;
+}
+.home .grid-conteiner .grid-img-1 {
+  grid-area: img-1;
+}
+.home .grid-conteiner .grid-img-2 {
+  grid-area: img-2;
+}
+
+.contacto {
+  padding: 10px;
+}
+.contacto p {
+  font-size: 1.5rem;
+  padding: 20px;
+  text-align: center;
+}
+.contacto form {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.servicios .grid-container-servicios {
+  display: grid;
+  grid-template-areas: " img-1 serv";
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 400px;
+  /*hijos*/
+  justify-items: center;
+  align-items: center;
+  /*grid*/
+  justify-content: center;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 25px;
+}
+.servicios .grid-container-servicios .grid-servicios {
+  grid-area: serv;
+  text-align: center;
+}
+.servicios .grid-container-servicios .grid-servicios li {
+  margin: 20px;
+  font-size: 1.2rem;
+}
+.servicios .grid-container-servicios .grid-img-1 {
+  grid-area: img-1;
+}
+.servicios .grid-container-servicios img {
+  width: 90%;
+}
+.servicios .metodologia {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+.servicios .grid-container-pasos {
+  display: grid;
+  grid-template-areas: "pasos pasos";
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 200px;
+  /*hijos*/
+  justify-items: center;
+  align-items: center;
+  /*grid*/
+  justify-content: center;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.servicios .grid-container-pasos .grid-pasos {
+  grid-area: pasos;
+}
+.servicios .grid-container-pasos .grid-pasos li {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.valeria p {
+  font-size: 1.7rem;
+}
+.valeria .grid-container-valeria {
+  display: grid;
+  grid-template-areas: "text-izq img-der" "img-izq text-der";
+  grid-template-columns: 35% 35%;
+  grid-template-rows: 500px 500px;
+  /*hijos*/
+  justify-items: center;
+  align-items: center;
+  /*grid*/
+  justify-content: center;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 30px;
+}
+.valeria .grid-container-valeria .grid-img-der {
+  grid-area: img-der;
+}
+.valeria .grid-container-valeria .grid-img-izq {
+  grid-area: img-izq;
+}
+.valeria .grid-container-valeria .grid-text-der {
+  grid-area: text-der;
+  text-align: right;
+}
+.valeria .grid-container-valeria .grid-text-izq {
+  grid-area: text-izq;
+}
+.valeria .grid-container-valeria img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  /*general*/
+  h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  /*header*/
+  header {
+    flex-direction: column;
+    padding: 7px;
+  }
+  header img {
+    width: 35px;
+  }
+  header nav ul li a {
+    font-size: 0.7rem;
+    padding: 1.7px;
+    margin: 3.5px;
+    border: 0.5px solid #008b8b;
+    box-shadow: -2px 2px 5px #016464;
+  }
+  header nav ul li a:hover {
+    font-size: 0.8rem;
+    padding: 1.8px;
+    margin: 3.7;
+    border: 0.6px solid #008b8b;
+  }
+  /* footer */
+  footer {
+    padding: 6px;
+  }
+  footer img {
+    width: 18px;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+  /*index*/
+  .home h1 {
+    font-size: 3rem;
+    padding: 0.1px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .home h3 {
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .home p {
+    font-size: 0.9rem;
+    padding: 20px 20px;
+  }
+  .home .grid-conteiner {
+    display: grid;
+    grid-template-areas: "img-2";
+    grid-template-columns: 50%;
+    grid-template-rows: 250px;
+  }
+  .home .grid-conteiner .grid-img-1 {
+    display: none;
+  }
+  /*valeria*/
+  .valeria p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .valeria .grid-container-valeria {
+    display: grid;
+    grid-template-areas: "text-izq " "img-der" "text-der" "img-izq";
+    grid-template-columns: 80%;
+    grid-template-rows: 150px 400px 150px;
+    row-gap: 10px;
+    padding: 5px;
+  }
+  .valeria .grid-container-valeria .grid-text-der {
+    text-align: center;
+  }
+  .valeria .grid-container-valeria .grid-text-izq {
+    text-align: center;
+  }
+  .valeria .grid-container-valeria .grid-img-izq {
+    display: none;
+  }
+  /*contacto*/
+  .contacto p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .contacto form {
+    font-size: 1.2rem;
+    padding: 60px;
+  }
+  .contacto form .textarea {
+    width: 160px;
+    height: 150px;
+  }
+  /*servicios*/
+  .servicios .grid-container-servicios {
+    display: grid;
+    grid-template-areas: "serv";
+    grid-template-columns: 70%;
+    grid-template-rows: 200px;
+    padding: 5px;
+  }
+  .servicios .grid-container-servicios .grid-img-1 {
+    grid-area: img-1;
+    display: none;
+  }
+  .servicios .grid-container-servicios .grid-servicios li {
+    margin: 5px;
+    font-size: 0.9rem;
+    list-style-position: inside;
+  }
+  .servicios .metodologia {
+    padding: 7px;
+    font-size: 0.9rem;
+    margin: 6px;
+  }
+  .servicios .grid-container-pasos {
+    display: grid;
+    grid-template-areas: "pasos";
+    grid-template-columns: 85%;
+    grid-template-rows: 240px;
+    /*hijos*/
+    justify-items: center;
+    align-items: center;
+    /*grid*/
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  .servicios .grid-container-pasos .grid-pasos li {
+    margin: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
