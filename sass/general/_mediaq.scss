@@ -143,9 +143,15 @@
             }
         }
         .metodologia {
-            padding: 7px;
-            font-size: 0.9rem;
-            margin: 6px;
+            h2{
+                
+                font-size: 1.9rem;
+                margin-top: 7px;
+            }
+            h3{
+                font-size: 0.7rem;
+                padding:3px;
+            }
         }
         .grid-container-pasos{
             display: grid;
@@ -164,7 +170,7 @@
             .grid-pasos {
                 li{
                 margin: 5px;
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 }
             }
         }

@@ -164,9 +164,14 @@ footer p {
 }
 .servicios .metodologia {
   text-align: center;
-  padding: 5px;
+}
+.servicios .metodologia h2 {
+  font-size: 2.2rem;
+  margin-top: 10px;
+}
+.servicios .metodologia h3 {
   font-size: 1.2rem;
-  margin: 5px;
+  margin-top: 5px;
 }
 .servicios .grid-container-pasos {
   display: grid;
@@ -186,7 +191,7 @@ footer p {
 }
 .servicios .grid-container-pasos .grid-pasos li {
   margin: 5px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .valeria p {
@@ -335,10 +340,13 @@ footer p {
     font-size: 0.9rem;
     list-style-position: inside;
   }
-  .servicios .metodologia {
-    padding: 7px;
-    font-size: 0.9rem;
-    margin: 6px;
+  .servicios .metodologia h2 {
+    font-size: 1.9rem;
+    margin-top: 7px;
+  }
+  .servicios .metodologia h3 {
+    font-size: 0.7rem;
+    padding: 3px;
   }
   .servicios .grid-container-pasos {
     display: grid;
@@ -355,7 +363,7 @@ footer p {
   }
   .servicios .grid-container-pasos .grid-pasos li {
     margin: 5px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
