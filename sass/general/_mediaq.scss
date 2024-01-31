@@ -147,10 +147,12 @@
                 
                 font-size: 1.9rem;
                 margin-top: 7px;
+                margin-bottom: 7px;
             }
             h3{
                 font-size: 0.7rem;
-                padding:3px;
+                padding-left: 20px;
+                padding-right: 20px;
             }
         }
         .grid-container-pasos{
@@ -169,8 +171,8 @@
             column-gap: 15px;
             .grid-pasos {
                 li{
-                margin: 5px;
-                font-size: 0.7rem;
+                margin-bottom: 10px;
+                font-size: 0.8rem;
                 }
             }
         }

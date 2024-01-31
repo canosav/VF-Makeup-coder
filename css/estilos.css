@@ -171,7 +171,7 @@ footer p {
 }
 .servicios .metodologia h3 {
   font-size: 1.2rem;
-  margin-top: 5px;
+  margin: 10px;
 }
 .servicios .grid-container-pasos {
   display: grid;
@@ -190,7 +190,7 @@ footer p {
   grid-area: pasos;
 }
 .servicios .grid-container-pasos .grid-pasos li {
-  margin: 5px;
+  margin-bottom: 12px;
   font-size: 1.1rem;
 }
 
@@ -343,10 +343,12 @@ footer p {
   .servicios .metodologia h2 {
     font-size: 1.9rem;
     margin-top: 7px;
+    margin-bottom: 7px;
   }
   .servicios .metodologia h3 {
     font-size: 0.7rem;
-    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .servicios .grid-container-pasos {
     display: grid;
@@ -362,8 +364,8 @@ footer p {
     column-gap: 15px;
   }
   .servicios .grid-container-pasos .grid-pasos li {
-    margin: 5px;
-    font-size: 0.7rem;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
   }
 }
 
