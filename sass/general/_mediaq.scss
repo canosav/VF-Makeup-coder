@@ -7,23 +7,24 @@
     /*header*/
     header{
         flex-direction: column;
-        padding: 7px;
+        padding: 15px;
         img{
-            width: 35px;  
+            width: 35px; 
+            margin-bottom: 5px;
         }
         nav{
             ul{
                 li{
                     a {
-                        font-size: 0.7rem;
-                        padding: 1.7px;
-                        margin:3.5px;
-                        border: 0.5px solid #008b8b;
+                        font-size: 0.8rem;
+                        padding: 1.8px;
+                        margin:3.8px;
+                        border: 0.4px solid #008b8b;
                         box-shadow: -2px 2px 5px #016464;
                         &:hover{
-                            font-size: 0.8rem;
-                            padding: 1.8px;
-                            margin: 3.7;
+                            font-size: 1rem;
+                            padding: 2px;
+                            margin: 4;
                             border: 0.6px solid #008b8b;
                         }
                     }
@@ -34,7 +35,7 @@
 
     /* footer */
     footer {
-        padding: 6px;
+        padding: 6.5px;
         img{
             width: 18px;
         }
@@ -49,12 +50,12 @@
             font-size: 3rem;
             padding: 0.1px;
             margin-top: 30px;
-            margin-bottom: 5px;
+            margin-bottom: 7px;
         }
-        h3{
-            font-size: 1rem;
+        h2{
+            font-size: 1.2rem;
             margin-top: 4px;
-            margin-bottom: 10px;
+            margin-bottom: 3px;
         }
         p{
             font-size: 0.9rem;
@@ -64,13 +65,11 @@
             display: grid;
             grid-template-areas: 
             "img-2"
+            "img-1"
             ;
-            grid-template-columns: 50%;
-            grid-template-rows: 250px;
+            grid-template-columns: 60%;
+            grid-template-rows: 300px 300px;
 
-            .grid-img-1{
-                display: none;
-            }
         }
     }
 
@@ -110,7 +109,7 @@
     .contacto{
         p{
             font-size: 1rem;
-            padding: 10px;
+            padding: 15px;
         }
         form{
             font-size: 1.2rem;

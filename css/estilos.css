@@ -87,7 +87,7 @@ footer p {
   margin-top: 30px;
   margin-bottom: 5px;
 }
-.home h3 {
+.home h2 {
   font-size: 1.9rem;
   color: black;
   margin-top: 12px;
@@ -232,27 +232,28 @@ footer p {
   /*header*/
   header {
     flex-direction: column;
-    padding: 7px;
+    padding: 15px;
   }
   header img {
     width: 35px;
+    margin-bottom: 5px;
   }
   header nav ul li a {
-    font-size: 0.7rem;
-    padding: 1.7px;
-    margin: 3.5px;
-    border: 0.5px solid #008b8b;
+    font-size: 0.8rem;
+    padding: 1.8px;
+    margin: 3.8px;
+    border: 0.4px solid #008b8b;
     box-shadow: -2px 2px 5px #016464;
   }
   header nav ul li a:hover {
-    font-size: 0.8rem;
-    padding: 1.8px;
-    margin: 3.7;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 4;
     border: 0.6px solid #008b8b;
   }
   /* footer */
   footer {
-    padding: 6px;
+    padding: 6.5px;
   }
   footer img {
     width: 18px;
@@ -265,12 +266,12 @@ footer p {
     font-size: 3rem;
     padding: 0.1px;
     margin-top: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
-  .home h3 {
-    font-size: 1rem;
+  .home h2 {
+    font-size: 1.2rem;
     margin-top: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
   }
   .home p {
     font-size: 0.9rem;
@@ -278,12 +279,9 @@ footer p {
   }
   .home .grid-conteiner {
     display: grid;
-    grid-template-areas: "img-2";
-    grid-template-columns: 50%;
-    grid-template-rows: 250px;
-  }
-  .home .grid-conteiner .grid-img-1 {
-    display: none;
+    grid-template-areas: "img-2" "img-1";
+    grid-template-columns: 60%;
+    grid-template-rows: 300px 300px;
   }
   /*valeria*/
   .valeria p {
@@ -310,7 +308,7 @@ footer p {
   /*contacto*/
   .contacto p {
     font-size: 1rem;
-    padding: 10px;
+    padding: 15px;
   }
   .contacto form {
     font-size: 1.2rem;
