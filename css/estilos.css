@@ -134,6 +134,15 @@ footer p {
   padding: 20px;
 }
 
+.portfolio nav p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+.portfolio nav p a {
+  color: rgb(158, 70, 110);
+}
+
 .servicios .grid-container-servicios {
   display: grid;
   grid-template-areas: " img-1 serv";
@@ -366,6 +375,11 @@ footer p {
   .servicios .grid-container-pasos .grid-pasos li {
     margin-bottom: 10px;
     font-size: 0.8rem;
+  }
+  /*portafolio*/
+  .portfolio nav p {
+    font-size: 1.5rem;
+    margin-top: 30px;
   }
 }
 
