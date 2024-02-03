@@ -439,8 +439,10 @@ footer p {
     padding: 20px 20px;
   }
   .home .grid-conteiner {
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 100%;
+    display: grid;
+    grid-template-areas: "img-2" "img-1";
+    grid-template-columns: 60%;
+    grid-template-rows: 50% 50%;
   }
   /*valeria*/
   .valeria p {
@@ -449,37 +451,33 @@ footer p {
   .valeria .grid-container-valeria {
     grid-template-columns: 45% 45%;
     grid-template-rows: 50% 50%;
+    padding-bottom: 80px;
   }
   /*contacto*/
   .contacto {
+    padding-bottom: 300px;
     margin-left: 30px;
   }
   .contacto p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   .contacto form {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     padding: 40px;
   }
   .contacto form .textarea {
-    width: 170px;
-    height: 160px;
+    width: 260px;
+    height: 240px;
   }
   /*servicios*/
   .servicios .grid-container-servicios {
-    display: grid;
-    grid-template-areas: "serv";
-    grid-template-columns: 70%;
-    grid-template-rows: 220px;
-    padding: 5px;
-  }
-  .servicios .grid-container-servicios .grid-img-1 {
-    grid-area: img-1;
-    display: none;
+    grid-template-areas: "serv" "img-1";
+    grid-template-columns: 50%;
+    grid-template-rows: 300px 500px;
   }
   .servicios .grid-container-servicios .grid-servicios li {
     margin: 5px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     list-style-position: inside;
   }
   .servicios .metodologia h2 {
@@ -488,15 +486,15 @@ footer p {
     margin-bottom: 7px;
   }
   .servicios .metodologia h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-left: 20px;
     padding-right: 20px;
   }
   .servicios .grid-container-pasos {
     display: grid;
     grid-template-areas: "pasos";
-    grid-template-columns: 85%;
-    grid-template-rows: 240px;
+    grid-template-columns: 75%;
+    grid-template-rows: 400px;
     /*hijos*/
     justify-items: center;
     align-items: center;
@@ -507,7 +505,7 @@ footer p {
   }
   .servicios .grid-container-pasos .grid-pasos li {
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   /*portafolio*/
   .portfolio nav p {

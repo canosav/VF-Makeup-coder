@@ -252,9 +252,16 @@
             padding: 20px 20px;
         }
         .grid-conteiner{
-            grid-template-columns: 40% 40%;
-            grid-template-rows: 100%;
+            display: grid;
+            grid-template-areas: 
+            "img-2"
+            "img-1"
+            ;
+            grid-template-columns: 60%;
+            grid-template-rows: 50% 50%;
+
         }
+       
     }
 
     /*valeria*/
@@ -265,21 +272,24 @@
         .grid-container-valeria{
             grid-template-columns: 45% 45%;
             grid-template-rows: 50% 50%;
+
+            padding-bottom: 80px;
         }    
     }
 
     /*contacto*/
     .contacto{
+        padding-bottom: 300px;
         margin-left: 30px;
         p{
-            font-size: 1.2rem; 
+            font-size: 1.7rem; 
         }
         form{
-            font-size: 1.2rem;
+            font-size: 1.9rem;
             padding: 40px;
             .textarea{
-                width: 170px;
-                height: 160px;
+                width: 260px;
+                height: 240px;
             }
         }       
     }
@@ -287,21 +297,16 @@
     /*servicios*/
     .servicios{
         .grid-container-servicios{
-            display: grid;
             grid-template-areas: 
             "serv"
+            "img-1"
             ;
-            grid-template-columns:70%;
-            grid-template-rows:220px;
-            padding: 5px;
+            grid-template-columns:50%;
+            grid-template-rows:300px 500px;
 
-            .grid-img-1{
-                grid-area: img-1;
-                display: none;
-            }
             .grid-servicios li{
                 margin: 5px;
-                font-size: 1.1rem;
+                font-size: 1.5rem;
                 list-style-position: inside;
             }
         }
@@ -312,7 +317,7 @@
                 margin-bottom: 7px;
             }
             h3{
-                font-size: 1rem;
+                font-size: 1.3rem;
                 padding-left: 20px;
                 padding-right: 20px;
             }
@@ -322,8 +327,8 @@
             grid-template-areas: 
             "pasos"
             ;
-            grid-template-columns: 85%;
-            grid-template-rows:240px;
+            grid-template-columns: 75%;
+            grid-template-rows:400px;
             /*hijos*/
             justify-items: center;
             align-items: center;
@@ -334,7 +339,7 @@
             .grid-pasos {
                 li{
                 margin-bottom: 10px;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 }
             }
         }
