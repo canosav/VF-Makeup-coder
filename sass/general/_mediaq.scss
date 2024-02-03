@@ -1,3 +1,4 @@
+/*mobile*/
 @media only screen and (max-width:480px){
     /*general*/
     h1{
@@ -68,7 +69,7 @@
             "img-1"
             ;
             grid-template-columns: 60%;
-            grid-template-rows: 300px 300px;
+            grid-template-rows: 50% 50%;
 
         }
     }
@@ -88,8 +89,8 @@
             "text-der"
             "img-izq"
             ;
-            grid-template-columns: 80%;
-            grid-template-rows: 150px 400px 150px;
+            grid-template-columns: 75%;
+            grid-template-rows: 100px 350px 100px;
             
             row-gap: 10px;
             padding: 5px;
@@ -107,18 +108,18 @@
 
     /*contacto*/
     .contacto{
+        margin-left: 30px;
         p{
-            font-size: 1rem;
-            padding: 15px;
+            font-size: 1.2rem; 
         }
         form{
             font-size: 1.2rem;
-            padding: 60px;
+            padding: 40px;
             .textarea{
-                width: 160px;
-                height: 150px;
+                width: 170px;
+                height: 160px;
             }
-        }
+        }       
     }
 
     /*servicios*/
@@ -182,9 +183,171 @@
     .portfolio{
         nav{
             p{
+                font-size: 1.3rem;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:481px) and (max-width:978px){
+     /*general*/
+     h1{
+        font-size: 2.5rem;
+        padding: 8px;
+    }
+    /*header*/
+    header{
+        padding: 15px;
+        img{
+            width: 35px; 
+        }
+        nav{
+            ul{
+                li{
+                    a {
+                        font-size: 0.9rem;
+                        padding: 2px;
+                        border: 1px solid $a-color;
+                        margin:5px;
+                        box-shadow: -3px 3px 8px #035d5d;
+                        &hover{
+                            font-size: 1rem;
+                            padding: 4.4px;
+                            border: 1.2px solid $vis-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* footer */
+    footer {
+        padding: 7px;
+        img{
+            width: 20px;
+        }
+        p{
+            font-size: 0.9em;
+        }
+    }
+
+    /*index*/
+    .home{
+        h1{
+            font-size: 4.4rem;
+            padding: 0.3px;
+            margin-top: 35px;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 1.4rem;
+            margin-top: 4.2px;
+            margin-bottom: 3.2px;
+        }
+        p{
+            font-size: 1.2rem;
+            padding: 20px 20px;
+        }
+        .grid-conteiner{
+            grid-template-columns: 40% 40%;
+            grid-template-rows: 100%;
+        }
+    }
+
+    /*valeria*/
+    .valeria {
+        p{
+        font-size: 1.2rem;
+        }
+        .grid-container-valeria{
+            grid-template-columns: 45% 45%;
+            grid-template-rows: 50% 50%;
+        }    
+    }
+
+    /*contacto*/
+    .contacto{
+        margin-left: 30px;
+        p{
+            font-size: 1.2rem; 
+        }
+        form{
+            font-size: 1.2rem;
+            padding: 40px;
+            .textarea{
+                width: 170px;
+                height: 160px;
+            }
+        }       
+    }
+
+    /*servicios*/
+    .servicios{
+        .grid-container-servicios{
+            display: grid;
+            grid-template-areas: 
+            "serv"
+            ;
+            grid-template-columns:70%;
+            grid-template-rows:220px;
+            padding: 5px;
+
+            .grid-img-1{
+                grid-area: img-1;
+                display: none;
+            }
+            .grid-servicios li{
+                margin: 5px;
+                font-size: 1.1rem;
+                list-style-position: inside;
+            }
+        }
+        .metodologia {
+            h2{
+                font-size: 1.9rem;
+                margin-top: 7px;
+                margin-bottom: 7px;
+            }
+            h3{
+                font-size: 1rem;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .grid-container-pasos{
+            display: grid;
+            grid-template-areas: 
+            "pasos"
+            ;
+            grid-template-columns: 85%;
+            grid-template-rows:240px;
+            /*hijos*/
+            justify-items: center;
+            align-items: center;
+            /*grid*/
+            justify-content: center ;
+            row-gap: 15px;
+            column-gap: 15px;
+            .grid-pasos {
+                li{
+                margin-bottom: 10px;
+                font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    /*portafolio*/
+    .portfolio{
+        nav{
+            p{
                 font-size: 1.5rem;
                 margin-top: 30px;
             }
         }
     }
+
 }

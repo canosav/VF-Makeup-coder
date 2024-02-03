@@ -22,7 +22,7 @@ header{
                     color: $a-color;
                     text-decoration: none;
                     font-family: $font;
-                    font-size: 0.9rem;
+                    font-size: 1.1rem;
                     padding: 4px;
                     border: 1px solid $a-color;
                     margin:20px;
@@ -32,7 +32,7 @@ header{
                         border: 1px solid $vis-color;
                     }
                     &:hover{
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                         padding: 4.4px;
                         border: 1.2px solid $vis-color;
                     }
