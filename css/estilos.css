@@ -211,7 +211,7 @@ footer p {
   display: grid;
   grid-template-areas: "text-izq img-der" "img-izq text-der";
   grid-template-columns: 35% 35%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 500px 500px;
   /*hijos*/
   justify-items: center;
   align-items: center;
@@ -297,7 +297,7 @@ footer p {
     display: grid;
     grid-template-areas: "img-2" "img-1";
     grid-template-columns: 60%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 330px 330px;
   }
   /*valeria*/
   .valeria p {
@@ -441,17 +441,27 @@ footer p {
   .home .grid-conteiner {
     display: grid;
     grid-template-areas: "img-2" "img-1";
-    grid-template-columns: 60%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 45%;
+    grid-template-rows: 500px 500px;
   }
   /*valeria*/
   .valeria p {
     font-size: 1.2rem;
+    text-align: justify;
   }
   .valeria .grid-container-valeria {
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 50% 50%;
-    padding-bottom: 80px;
+    grid-template-areas: "text-izq text-izq" "img-izq img-der" "text-der text-der";
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100px 400px 100px;
+    row-gap: 0px;
+    column-gap: 20px;
+    padding: 10px;
+  }
+  .valeria .grid-container-valeria .grid-text-der {
+    text-align: center;
+  }
+  .valeria .grid-container-valeria .grid-text-izq {
+    text-align: center;
   }
   /*contacto*/
   .contacto {
